@@ -16,13 +16,14 @@ Currently it only incorporates a SYN flooding module with and without spoofing, 
 The name is a reference to the [LOIC](https://en.wikipedia.org/wiki/Low_Orbit_Ion_Cannon).
 
 ## Installation
-You can download the binary file for TCPcannon [here]().
+You can download the binary file for TCPcannon [here](https://github.com/marsan27/TCPcannon/releases/tag/v0.1.0).
 
 ## Usage
 
 Run ./TCPcannon -h to get tool usage:
 
-![Help output](https://github.com/marsan27/TCPcannon/tree/master/images/help_output.png)
+
+![Image of Help](https://github.com/marsan27/TCPcannon/tree/master/images/help_output.png)
 
 ## Examples
 Note: As stated in the library [RawTCP](https://github.com/marsan27/RawTCP_Lib.git), raw sockets require root proviliges to be used, so you will need them before running any of these examples. 

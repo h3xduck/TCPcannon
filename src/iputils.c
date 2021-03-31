@@ -12,14 +12,14 @@ const char* generate_random_address(){
 	
 	uint32_t random_num = randCMWC(&cmwc);
 
-    uint32_t toreturn;
-    toreturn = (random_num >> 24 & 0xFF) << 24 | 
+    uint32_t result;
+    result = (random_num >> 24 & 0xFF) << 24 | 
             (random_num >> 16 & 0xFF) << 16 | 
             (random_num >> 8 & 0xFF) << 8 | 
             (random_num & 0xFF);
 
-    printf("%u\n",toreturn);
-    
+    char *address = malloc(sizeof(char)*32);
+    inet_ntop(AF_INET, (void*)&result, address, 32);
 
-    return 0;
+    return address;
 }

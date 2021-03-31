@@ -14,7 +14,7 @@ include_directories(include src modules)
 SET(CMAKE_INSTALL_RPATH "${CMAKE_INSTALL_PREFIX}/lib")
 set(CMAKE_INSTALL_RPATH_USE_LINK_PATH TRUE)
 
-add_executable(TCPcannon main.c
+add_executable(TCPcannon main.c include/benchmarks.h
     include/SYNflooding.h modules/SYNflooding.c
     include/iputils.h     src/iputils.c
     include/randomCWMC.h  src/randomCWMC.c)

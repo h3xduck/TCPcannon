@@ -16,6 +16,7 @@
 #include <arpa/inet.h>
 #include <time.h>
 #include <stdint.h>
+#include <sys/time.h>
 
 void syn_flooding_direct(const char* destination_address);
 

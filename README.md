@@ -23,7 +23,7 @@ You can download the binary file for TCPcannon [here](https://github.com/marsan2
 Run ./TCPcannon -h to get tool usage:
 
 
-![Image of Help](https://github.com/marsan27/TCPcannon/tree/master/images/help_output.png)
+<img src="[myimage.png](https://github.com/marsan27/TCPcannon/tree/master/images/help_output.png)" width="800" />
 
 ## Examples
 Note: As stated in the library [RawTCP](https://github.com/marsan27/RawTCP_Lib.git), raw sockets require root proviliges to be used, so you will need them before running any of these examples. 

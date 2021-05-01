@@ -1,13 +1,13 @@
 
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/marsan27/RawTCP_Lib)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/h3xduck/RawTCP_Lib)
 ![Maintainability](https://img.shields.io/static/v1?label=maintainability&message=B&color=green)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/marsan27/RawTCP_Lib)
-![GitHub last commit](https://img.shields.io/github/last-commit/marsan27/RawTCP_Lib)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/h3xduck/RawTCP_Lib)
+![GitHub last commit](https://img.shields.io/github/last-commit/h3xduck/RawTCP_Lib)
 
 
 # TCPcannon
 
-TCPcannon is a Linux tool for launching network attacks. It is built on top of [RawTCP](https://github.com/marsan27/RawTCP_Lib.git), my library to manage network packets and raw sockets. 
+TCPcannon is a Linux tool for launching network attacks. It is built on top of [RawTCP](https://github.com/h3xduck/RawTCP_Lib.git), my library to manage network packets and raw sockets. 
 
 The purpose of this development is to reproduce real network attacks using only the C language and with minimal dependencies.
 
@@ -16,7 +16,7 @@ Currently it only incorporates a SYN flooding module with and without spoofing, 
 The name is a reference to the [LOIC](https://en.wikipedia.org/wiki/Low_Orbit_Ion_Cannon).
 
 ## Installation
-You can download the binary file for TCPcannon [here](https://github.com/marsan27/TCPcannon/releases/tag/v0.1.0).
+You can download the binary file for TCPcannon [here](https://github.com/h3xduck/TCPcannon/releases/tag/v0.1.0).
 
 ## Usage
 
@@ -25,7 +25,7 @@ Run ./TCPcannon -h to get tool usage:
 <img src="images/help_output.png" width = 800/>
 
 ## Examples
-Note: As stated in the library [RawTCP](https://github.com/marsan27/RawTCP_Lib.git), raw sockets require root proviliges to be used, so you will need them before running any of these examples. 
+Note: As stated in the library [RawTCP](https://github.com/h3xduck/RawTCP_Lib.git), raw sockets require root proviliges to be used, so you will need them before running any of these examples. 
 
 ### SYN flood attack against 192.168.1.1 at port 8080
 ```sh
@@ -45,6 +45,6 @@ You will get the number of packets sent and packets/minute.
 ```
 
 ## Issues?
-Whether it is a bug, question or suggestion, please [open a ticket](https://github.com/marsan27/TCPcannon/issues/new) and I will have a look at it as fast as I possibly can.
+Whether it is a bug, question or suggestion, please [open a ticket](https://github.com/h3xduck/TCPcannon/issues/new) and I will have a look at it as fast as I possibly can.
 ## LICENSE
-This software is licensed under the MIT license. See [LICENSE](https://github.com/marsan27/TCPcannon/blob/master/LICENSE)
+This software is licensed under the MIT license. See [LICENSE](https://github.com/h3xduck/TCPcannon/blob/master/LICENSE)
